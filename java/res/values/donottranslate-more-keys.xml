@@ -1,0 +1,6 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="morekeys_s">&#x0161;,&#x00DF;,&#x015B;</string>
+    <string name="morekeys_c">&#x010D;,&#x00E7;,&#x0107;</string>
+    <string name="morekeys_d">&#x010F;</string>
+    <string name="morekeys_z">&#x017E;,&#x017A;,&#x017C;</string>
+</resources>

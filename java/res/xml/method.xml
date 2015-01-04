@@ -649,8 +649,8 @@
             android:subtypeId="0x77c5196e"
             android:imeSubtypeLocale="sr"
             android:imeSubtypeMode="keyboard"
-            android:imeSubtypeExtraValue="SupportTouchPositionCorrection,EmojiCapable"
-            android:isAsciiCapable="false"
+            android:imeSubtypeExtraValue="KeyboardLayoutSet=qwerty,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable"
+            android:isAsciiCapable="true"
     />
     <!-- TODO: Uncomment once we can handle IETF language tag with script name specified.
     <subtype android:icon="@drawable/ic_ime_switcher_dark"

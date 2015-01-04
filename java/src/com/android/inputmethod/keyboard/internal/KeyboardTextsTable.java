@@ -3231,64 +3231,34 @@ public final class KeyboardTextsTable {
     /* Locale sr: Serbian */
     private static final String[] TEXTS_sr = {
         /* morekeys_a ~ */
-        null, null, null,
-        /* ~ morekeys_u */
-        // END: More keys definitions for Serbian (Cyrillic)
-        // Label for "switch to alphabetic" key.
-        // U+0410: "А" CYRILLIC CAPITAL LETTER A
-        // U+0411: "Б" CYRILLIC CAPITAL LETTER BE
-        // U+0412: "В" CYRILLIC CAPITAL LETTER VE
-        /* keylabel_to_alpha */ "\u0410\u0411\u0412",
-        /* morekeys_e ~ */
-        null, null, null,
-        /* ~ morekeys_c */
-        /* double_quotes */ "!text/double_9qm_lqm",
-        /* morekeys_n */ null,
-        /* single_quotes */ "!text/single_9qm_lqm",
-        /* morekeys_s ~ */
-        null, null, null, null, null, null, null, null,
-        /* ~ morekeys_g */
-        /* single_angle_quotes */ "!text/single_raqm_laqm",
-        /* double_angle_quotes */ "!text/double_raqm_laqm",
-        /* morekeys_r */ null,
-        /* morekeys_k */ null,
-        // U+0450: "ѐ" CYRILLIC SMALL LETTER IE WITH GRAVE
-        /* morekeys_cyrillic_ie */ "\u0450",
-        /* keyspec_nordic_row1_11 ~ */
-        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
-        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
-        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
-        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
         null, null, null, null, null, null,
-        /* ~ morekeys_cyrillic_o */
-        // U+045D: "ѝ" CYRILLIC SMALL LETTER I WITH GRAVE
-        /* morekeys_cyrillic_i */ "\u045D",
-        // TODO: Move these to sr-Latn once we can handle IETF language tag with script name specified.
-        // BEGIN: More keys definitions for Serbian (Latin)
-        // U+0161: "š" LATIN SMALL LETTER S WITH CARON
-        // U+00DF: "ß" LATIN SMALL LETTER SHARP S
-        // U+015B: "ś" LATIN SMALL LETTER S WITH ACUTE
-        // <string name="morekeys_s">&#x0161;,&#x00DF;,&#x015B;</string>
+        /* ~ morekeys_i */
         // U+010D: "č" LATIN SMALL LETTER C WITH CARON
-        // U+00E7: "ç" LATIN SMALL LETTER C WITH CEDILLA
         // U+0107: "ć" LATIN SMALL LETTER C WITH ACUTE
-        // <string name="morekeys_c">&#x010D;,&#x00E7;,&#x0107;</string>
-        // U+010F: "ď" LATIN SMALL LETTER D WITH CARON
-        // <string name="morekeys_d">&#x010F;</string>
+        // U+00E7: "ç" LATIN SMALL LETTER C WITH CEDILLA
+        /* morekeys_c */ "\u010D,\u0107",
+        /* double_quotes */ "!text/double_9qm_rqm",
+        // U+00F1: "ñ" LATIN SMALL LETTER N WITH TILDE
+        // U+0144: "ń" LATIN SMALL LETTER N WITH ACUTE
+        /* morekeys_n */ null,
+        /* single_quotes */ "!text/single_9qm_rqm",
+        // U+0161: "š" LATIN SMALL LETTER S WITH CARON
+        // U+015B: "ś" LATIN SMALL LETTER S WITH ACUTE
+        // U+00DF: "ß" LATIN SMALL LETTER SHARP S
+        /* morekeys_s */ "\u0161",
+        /* keyspec_currency */ null,
+        /* morekeys_y */ null,
+        // U+0111: "đ" LATIN SMALL LETTER D WITH STROKE
+        /* morekeys_d */ "\u0111",
         // U+017E: "ž" LATIN SMALL LETTER Z WITH CARON
         // U+017A: "ź" LATIN SMALL LETTER Z WITH ACUTE
         // U+017C: "ż" LATIN SMALL LETTER Z WITH DOT ABOVE
-        // <string name="morekeys_z">&#x017E;,&#x017A;,&#x017C;</string>
-        // END: More keys definitions for Serbian (Latin)
-        // BEGIN: More keys definitions for Serbian (Cyrillic)
-        // U+0437: "з" CYRILLIC SMALL LETTER ZE
-        /* keyspec_south_slavic_row1_6 */ "\u0437",
-        // U+045B: "ћ" CYRILLIC SMALL LETTER TSHE
-        /* keyspec_south_slavic_row2_11 */ "\u045B",
-        // U+0455: "ѕ" CYRILLIC SMALL LETTER DZE
-        /* keyspec_south_slavic_row3_1 */ "\u0455",
-        // U+0452: "ђ" CYRILLIC SMALL LETTER DJE
-        /* keyspec_south_slavic_row3_8 */ "\u0452",
+        /* morekeys_z */ "\u017E",
+        /* morekeys_t ~ */
+        null, null, null,
+        /* ~ morekeys_g */
+        /* single_angle_quotes */ "!text/single_raqm_laqm",
+        /* double_angle_quotes */ "!text/double_raqm_laqm",
     };
 
     /* Locale sv: Swedish */
