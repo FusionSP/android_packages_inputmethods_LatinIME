@@ -354,7 +354,10 @@ public class DictionaryInfoUtils {
                     // Protect against cases of a less-specific dictionary being found, like an
                     // en dictionary being used for an en_US locale. In this case, the en dictionary
                     // should be used for en_US but discounted for listing purposes.
-                    if (dictionaryInfo == null || !dictionaryInfo.mLocale.equals(locale)) continue;
+                    if (dictionaryInfo == null || dictionaryInfo.mLocale == null ||
+                            !dictionaryInfo.mLocale.equals(locale)) {
+                        continue;
+                    }
                     addOrUpdateDictInfo(dictList, dictionaryInfo);
                 }
             }
@@ -375,7 +378,10 @@ public class DictionaryInfoUtils {
             // Protect against cases of a less-specific dictionary being found, like an
             // en dictionary being used for an en_US locale. In this case, the en dictionary
             // should be used for en_US but discounted for listing purposes.
-            if (!dictionaryInfo.mLocale.equals(locale)) continue;
+            if (dictionaryInfo == null || dictionaryInfo.mLocale == null ||
+                    !dictionaryInfo.mLocale.equals(locale)) {
+                continue;
+            }
             addOrUpdateDictInfo(dictList, dictionaryInfo);
         }
 
